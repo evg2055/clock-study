@@ -1,0 +1,10 @@
+.clock {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.date {
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+}
