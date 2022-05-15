@@ -29,19 +29,20 @@ function clock() {
     }
 
     strClock = hours + ':' + minutes + ':' + seconds;
+
     DIALCLOCK.innerHTML = strClock;
+
     function DATE() {
         day = dates.getDate();
         month = dates.getMonth();
         year = dates.getFullYear();
 
         strDate = day + '-' + month + '-' + year;
+
         DIALDATE.innerHTML = strDate;
     }
     DATE();
 }
-
-
 
 setInterval(clock, 1000);
 
